@@ -1,26 +1,23 @@
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const name = 'Lucas' 
-  const newName = name.toUpperCase()
-  
-  function sum(a,b){
-    return a+b
-  }
-
-  const url = 'https://via.placeholder.com/150'
   return (
-    <div className = 'App'>
-      <h1>
-        Alterando o Jsx
-      </h1>
-      <p>
-        Ola {newName}
-      </p>
-      <p>
-        Soma: {sum(2,4)}
-      </p>
-      <img src={url} alt='Minha imagem' />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
