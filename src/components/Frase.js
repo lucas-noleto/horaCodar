@@ -1,8 +1,9 @@
 import SayMyName from './SayMyName.js';
+import styles from './Frase.module.css'
 
 function Frase(){
     return(
-        <div>
+        <div className={styles.fraseContainer}>
             <p>
                 Eai meu chapa, estou chamando a função frase
             </p>
