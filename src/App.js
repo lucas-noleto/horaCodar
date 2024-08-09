@@ -5,9 +5,12 @@ import Pessoa  from './components/Pessoa.js';
 import Evento from './components/Evento.js';
 import Formulario from './components/Formulario.js';
 import Condicional from './components/Condicional.js';
+import RenderLista from './components/RenderListas.js'
 
 function App() {
   
+  const lista = ['React', 'Json','HTML']
+
   return (
     <div className="App">
       <HelloWorld />
@@ -20,6 +23,10 @@ function App() {
 
       <h1>Renderizacao Condicional</h1>
       <Condicional/>
+
+      <h1>Renderizacao de listas</h1>
+      <RenderLista listas = {lista} />
+
       
     </div>
   );
