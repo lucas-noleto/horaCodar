@@ -4,6 +4,7 @@ import HelloWorld from './components/HelloWorld.js';
 import Pessoa  from './components/Pessoa.js';
 import Evento from './components/Evento.js';
 import Formulario from './components/Formulario.js';
+import Condicional from './components/Condicional.js';
 
 function App() {
   
@@ -16,6 +17,10 @@ function App() {
       <Evento/>
 
       <Formulario />
+
+      <h1>Renderizacao Condicional</h1>
+      <Condicional/>
+      
     </div>
   );
 }
