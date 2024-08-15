@@ -16,7 +16,7 @@ function Evento (){
             <Button event={segundoEvento} text = "Segundo evento"/>
             <button onClick={meuEvento} >Ativar!</button>
         </div>
-    )
+    );
 }
 
-export default Evento
+export default Evento;
